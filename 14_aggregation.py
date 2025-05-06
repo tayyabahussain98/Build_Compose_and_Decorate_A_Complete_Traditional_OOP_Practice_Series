@@ -29,6 +29,6 @@ class Department:
         return f'Department(Dept_Name: {self.dept_name}, Employee: {self.employee})'
     
 if __name__ == '__main__':
-     emp1 = Employee('Jhon', 101)
-     dept1 = Department('HR', emp1)
-     print(dept1)
+     emp_1 = Employee('Jhon', 101)
+     dept_1 = Department('HR', emp_1)
+     print(dept_1)
